@@ -1,0 +1,10 @@
+# Ignore env files
+backend/.env
+
+# .gitignore
+credentials/credentials.json
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
