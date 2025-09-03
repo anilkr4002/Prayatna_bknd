@@ -25,7 +25,7 @@ ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD')
 CORS(app, 
      supports_credentials=True, 
      origins=['http://localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:3001',
-              'https://sports-iit-bhilai-hduo-seven.vercel.app'],
+              'https://sports-iit-bhilai.vercel.app'],
      allow_headers=['Content-Type', 'Authorization'],
      methods=['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'])
 
